@@ -1,0 +1,71 @@
+# --------------------------------
+# Python Cache / Bytecode
+# --------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --------------------------------
+# Virtual Environments
+# --------------------------------
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# --------------------------------
+# Jupyter Notebook Checkpoints
+# --------------------------------
+.ipynb_checkpoints/
+
+# --------------------------------
+# OS / Editor Files
+# --------------------------------
+.DS_Store
+Thumbs.db
+
+# --------------------------------
+# Logs
+# --------------------------------
+*.log
+
+# --------------------------------
+# Python Packaging
+# --------------------------------
+build/
+dist/
+*.egg-info/
+
+# --------------------------------
+# IDE Specific
+# --------------------------------
+.vscode/
+.idea/
+
+# --------------------------------
+# Data Files (optional)
+# --------------------------------
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.db
+
+# Uncomment this if you want to keep some datasets
+# !data/keep_this_file.csv
+
+# --------------------------------
+# Environment / Secret Files
+# --------------------------------
+*.env
+*.ini
+*.cfg
+*.secret
+*.json
+
+# --------------------------------
+# Cache
+# --------------------------------
+.cache/
+.pytest_cache/
